@@ -1,0 +1,124 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  color: #666;
+}
+.account {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #d94136;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.search {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.message {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.portrait {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #eee;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.nickname {
+  float: right;
+  margin-left: 5px;
+  line-height: 60px;
+}
+.message span {
+  width: 60px;
+  height: 25px;
+  display: inline-block;
+  border: 1px solid #333;
+  border-radius: 19px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 5px;
+}
+.message small {
+  display: inline-block;
+  margin-left: 3px;
+}
+.navList {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1xp solid #ccc;
+}
+.navList div {
+  text-align: center;
+  margin-left: 5px;
+}
+.list li {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #ccc;
+  color: #666;
+}
+.list p {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.icon {
+  float: left;
+}
+.icon img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #666;
+}
+.xx {
+  margin-left: 10px;
+  line-height: 45px;
+  font-style: normal;
+}
+.ss {
+  border-top: 10px solid #ccc;
+}
+.jt {
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ccc;
+  line-height: 45px;
+}
+.btn {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 20px;
+}

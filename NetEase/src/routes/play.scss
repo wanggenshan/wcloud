@@ -1,0 +1,105 @@
+:global {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  .playWrap {
+    width: 100%;
+    height: 100%;
+    background: #333;
+    position: relative;
+  }
+  .play-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .imgs {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    border-radius: 100%;
+    animation: rote 1s linear infinite;
+  }
+  @keyframes rote {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  .cut {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #666;
+    color: #ccc;
+  }
+  .songsName {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .press {
+    width: 70%;
+    height: 5px;
+    background: #fff;
+    margin-left: 15%;
+    border-radius: 5px;
+    margin-top: 50px;
+    position: relative;
+    span {
+      width: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: purple;
+      height: 5px;
+    }
+  }
+  .dian {
+    width: 18px;
+    height: 18px;
+    background: purple;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -6px;
+  }
+  .progress {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    .staer {
+      position: absolute;
+      top: -11px;
+      color: #fff;
+      padding: 5px;
+    }
+    .ends {
+      position: absolute;
+      right: 0;
+      top: -11px;
+      color: #fff;
+      padding: 5px;
+    }
+  }
+  .ulst {
+    width: 100%;
+    height: 140px;
+    overflow-y: scroll;
+  }
+}

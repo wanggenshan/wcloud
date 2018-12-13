@@ -1,0 +1,23 @@
+.ulst {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  box-sizing: border-box;
+  li {
+    width: 50%;
+    padding: 10px 3px;
+    box-sizing: border-box;
+    img {
+      width: 154px;
+      height: 125px;
+    }
+    p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
